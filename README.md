@@ -38,15 +38,17 @@ Clock/timer
 
 TC1 component tester
 
-In progress:
-
 Ring (flyback/lopt) tester
-
-Frequency counter
 
 Battery tester
 
 LED tester
+
+In progress:
+
+Frequency counter
+
+Crystal tester
 
 The concept…
 
