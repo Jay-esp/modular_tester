@@ -723,11 +723,20 @@ void loop() {
 
     if (ScreenMode == 0) {
       if (battery_autostart and !battery_manual_trigger) {
+        mydac.setValue(0);
+        delay(100);
         battery_adc_ch1 = battery_getvoltage(1);
         battery_voltage_unloaded = battery_adc_ch1 * battery_calibration_factor_ch1;
         if (battery_voltage_unloaded > 0.5) {
-          battery_manual_trigger = true;
-          update_auto_mode(2);
+          delay(100);
+          battery_adc_ch1 = battery_getvoltage(1);
+          battery_voltage_unloaded = battery_adc_ch1 * battery_calibration_factor_ch1;
+          if (battery_voltage_unloaded > 0.5) {
+            battery_manual_trigger = true;
+            update_auto_mode(2);
+            // add a delay to stabilise and contact changes
+            delay(100);
+          }
         }
       }
 
@@ -749,7 +758,7 @@ void loop() {
           }
           // disable current
           mydac.setValue(0);
-          delay(100);
+          delay(200);
           battery_adc_ch0 = battery_getvoltage(0);
           battery_adc_ch1 = battery_getvoltage(1);
           battery_adc_ch2 = battery_getvoltage(2);
