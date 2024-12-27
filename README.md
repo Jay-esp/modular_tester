@@ -44,11 +44,15 @@ Battery tester
 
 LED tester
 
-In progress:
-
 Frequency counter
 
 Crystal tester
+
+In progress:
+
+FM transmitter
+White/pink/brown noise generator
+...
 
 The concept…
 
