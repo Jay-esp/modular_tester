@@ -48,9 +48,10 @@ Frequency counter
 
 Crystal tester
 
+FM transmitter
+
 In progress:
 
-FM transmitter
 White/pink/brown noise generator
 ...
 
