@@ -76,7 +76,7 @@ uint8_t fm_preemphasis = 0;
 // mode freq setting, step setting, power setting
 uint8_t fm_mode1 = 0;
 
-// toggle sine or bleutooth mode
+// toggle sine or bluetooth mode
 boolean fm_bt_on = false;
 
 // modulation
@@ -826,7 +826,7 @@ void update_modulation (void) {
   LCD_DISPLAY.setTextPadding(159);
   LCD_DISPLAY.setTextColor(TFT_GREEN, TFT_BLACK);
   if (fm_bt_on) {
-    LCD_DISPLAY.drawString("Bleutooth", 0, 0);
+    LCD_DISPLAY.drawString("Bluetooth", 0, 0);
   }
   else {
     switch (fm_sinemode) {
