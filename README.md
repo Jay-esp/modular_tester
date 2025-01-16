@@ -50,9 +50,10 @@ Crystal tester
 
 FM transmitter
 
-In progress:
-
 White/pink/brown noise generator
+
+In progress:
+TBD
 ...
 
 The concept…
