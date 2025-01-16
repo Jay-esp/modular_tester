@@ -1,0 +1,2328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPDProject version="25" oldestCompatibleVersion="25" GPDVersion="6.32.001" lastChange="9/28/2022 2:07 PM">
+    <generalProjectSettings/>
+    <chip family="04" type="06" friendlyName="AAPAK1" partNumber="46" package="19">
+        <nvmData registerLenght="2048">D7 B0 6F BB 40 0 FB C0 EF 5 BF 1B FC 7E F0 3B C2 EF 9 BF 2B FC CE 77 3B FF EC 7C B4 F3 D3 CE 57 3B 7F 5 DE BE 2F 3C D0 D8 1F C1 7F 0 0 0 CD F 0 0 90 FD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3C F F0 0 2 0 80 0 0 0 8 4 0 0 1D 50 9 80 0 0 0 F 0 DF DF F3 0 0 0 0 0 3F 0 0 F0 2 2F 0 0 C0 3F 3F 8 0 40 40 4 C C 0 0 0 0 1 0 1 A5 0 0 0 0 0 0 0 0 0 0 30 0 0 0 0 0 83 11 60 30 2 6C 0 0 10 0 10 20 10 20 10 20 10 20 10 20 10 20 0 0 69 96 1 0 0 1 0 1 0 1 0 1 0 1 0 1 9 60 0 0 C5 0 0 FF 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 FF 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5A 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0</nvmData>
+        <eepromData id="0">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</eepromData>
+        <checksum crc32="0x87A1C3D" version="6"/>
+        <VDDItem id="0">
+            <item id="0" caption="VDDA (PIN 1)">
+                <graphics pos="(-143.34,133.33)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+            </item>
+        </VDDItem>
+        <item id="1" caption="AGND (PIN 2)">
+            <graphics pos="(-143.34,316.44)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+        </item>
+        <IOPad id="2" useCaseMode="3">
+            <item id="2" caption="PIN 3 (OA0-)">
+                <graphics pos="(107.55,604.65)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(-22.00,25.22)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">White Noise In</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="3" useCaseMode="3">
+            <item id="3" caption="PIN 4 (OA0+)">
+                <graphics pos="(107.55,570.80)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(8.50,-27.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">NC</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="4" useCaseMode="3">
+            <item id="4" caption="PIN 5 (OA0_OUT)">
+                <graphics pos="(319.80,592.60)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(-22.50,-27.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">Pink Noise Out</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="5" useCaseMode="3">
+            <item id="5" caption="PIN 6 (RH0_A)">
+                <graphics pos="(-143.34,606.00)" angle="180" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(31.50,47.00)" angle="-180.00" textColor="#ffff00ff" backgroundColor="#14141464">NC</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="6" useCaseMode="3">
+            <item id="6" caption="PIN 7 (RH0_B)">
+                <graphics pos="(-143.34,658.00)" angle="180" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(31.50,47.00)" angle="-180.00" textColor="#ffff00ff" backgroundColor="#14141464">NC</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="7" useCaseMode="3">
+            <item id="7" caption="PIN 8 (RH1_A)">
+                <graphics pos="(-143.34,729.00)" angle="180" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(31.50,47.00)" angle="-180.00" textColor="#ffff00ff" backgroundColor="#14141464">NC</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="8" useCaseMode="3">
+            <item id="8" caption="PIN 9 (RH1_B)">
+                <graphics pos="(-143.34,780.00)" angle="180" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(31.50,47.00)" angle="-180.00" textColor="#ffff00ff" backgroundColor="#14141464">NC</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="9" useCaseMode="1">
+            <item id="9" caption="PIN 10 (SCL)">
+                <graphics pos="(-143.34,475.32)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(8.50,-27.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">NC</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="10" useCaseMode="1">
+            <item id="10" caption="PIN 11 (SDA)">
+                <graphics pos="(-143.34,528.32)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(8.50,-27.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">NC</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="11" useCaseMode="0">
+            <item id="11" caption="PIN 12 (GPIO0)">
+                <graphics pos="(877.67,80.97)" angle="0" flipping="1" hidden="1" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <VDDItem id="12">
+            <item id="12" caption="VDD (PIN 13)">
+                <graphics pos="(-143.34,194.69)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+            </item>
+        </VDDItem>
+        <item id="13" caption="GND (PIN 14)">
+            <graphics pos="(-143.34,356.19)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+        </item>
+        <IOPad id="14" useCaseMode="1">
+            <item id="14" caption="PIN 15 (GPIO1)">
+                <graphics pos="(876.44,285.66)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(86.05,-0.33)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">CLK In</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="15" useCaseMode="2">
+            <item id="15" caption="PIN 16 (GPIO2)">
+                <graphics pos="(877.99,169.14)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(49.78,-18.11)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">Random OSC</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="16" useCaseMode="0">
+            <item id="16" caption="PIN 17 (GPIO3)">
+                <graphics pos="(1104.33,479.00)" angle="0" flipping="1" hidden="1" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <IOPad id="17" useCaseMode="0">
+            <item id="17" caption="PIN 18 (GPIO4)">
+                <graphics pos="(1105.44,405.67)" angle="0" flipping="1" hidden="1" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <IOPad id="18" useCaseMode="2">
+            <item id="18" caption="PIN 19 (GPIO5)">
+                <graphics pos="(418.86,343.94)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(84.11,-1.44)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">White Noise Out</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="19" useCaseMode="0">
+            <item id="19" caption="PIN 20 (GPIO6)">
+                <graphics pos="(993.22,437.49)" angle="0" flipping="1" hidden="1" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <IOPad id="20" useCaseMode="3">
+            <item id="20" caption="PIN 21 (GPI0)">
+                <graphics pos="(1046.62,391.42)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <IOPad id="21" useCaseMode="3">
+            <item id="21" caption="PIN 22 (OA1_OUT)">
+                <graphics pos="(821.65,571.65)" angle="180" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(68.50,47.00)" angle="-180.00" textColor="#ffff00ff" backgroundColor="#14141464">Brown Noise Out</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="22" useCaseMode="3">
+            <item id="22" caption="PIN 23 (OA1+)">
+                <graphics pos="(611.87,558.87)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(8.50,-27.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">NC</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="23" useCaseMode="3">
+            <item id="23" caption="PIN 24 (OA1-)">
+                <graphics pos="(611.87,592.94)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(-15.28,27.44)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">Pink Noise In</textLabel>
+            </item>
+        </IOPad>
+        <item id="24" caption="POR">
+            <graphics pos="(-31.89,330.00)" angle="0" flipping="0" hidden="0" tOrigin="(17.50,10.00)"/>
+        </item>
+        <item id="25" caption="OPAMP0">
+            <graphics pos="(197.29,557.82)" angle="0" flipping="0" hidden="0" tOrigin="(35.00,40.00)"/>
+        </item>
+        <item id="26" caption="OPAMP1">
+            <graphics pos="(699.77,546.82)" angle="0" flipping="0" hidden="0" tOrigin="(35.00,40.00)"/>
+        </item>
+        <item id="27" caption="OPAMP INTERNAL">
+            <graphics pos="(1038.89,512.78)" angle="0" flipping="0" hidden="1" tOrigin="(35.00,40.00)"/>
+        </item>
+        <item id="28" caption="Digital Rheostat0">
+            <graphics pos="(-55.34,590.00)" angle="0" flipping="1" hidden="0" tOrigin="(40.00,45.00)"/>
+        </item>
+        <item id="29" caption="Digital Rheostat1">
+            <graphics pos="(-55.34,712.24)" angle="0" flipping="1" hidden="0" tOrigin="(40.00,45.00)"/>
+        </item>
+        <item id="30" caption="SWITCH0">
+            <graphics pos="(820.00,386.67)" angle="0" flipping="0" hidden="1" tOrigin="(40.00,15.00)"/>
+        </item>
+        <item id="31" caption="SWITCH1">
+            <graphics pos="(869.33,423.33)" angle="0" flipping="0" hidden="1" tOrigin="(40.00,15.00)"/>
+        </item>
+        <item id="32" caption="Chopper ACMP">
+            <graphics pos="(449.23,790.56)" angle="0" flipping="0" hidden="1" tOrigin="(35.00,39.00)"/>
+        </item>
+        <item id="33" caption="A CMP0L">
+            <graphics pos="(340.00,350.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,28.00)"/>
+        </item>
+        <item id="34" caption="A CMP1L">
+            <graphics pos="(340.00,445.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,28.00)"/>
+        </item>
+        <item id="35" caption="TEMP SENSOR">
+            <graphics pos="(1060.00,365.00)" angle="0" flipping="0" hidden="1" tOrigin="(28.00,15.00)"/>
+        </item>
+        <item id="36" caption="VREF0">
+            <graphics pos="(410.00,270.00)" angle="0" flipping="0" hidden="1" tOrigin="(17.50,10.00)"/>
+        </item>
+        <item id="37" caption="VREF1">
+            <graphics pos="(340.00,270.00)" angle="0" flipping="0" hidden="1" tOrigin="(17.50,10.00)"/>
+        </item>
+        <LUT id="38" regularShape="0" mode="0">
+            <item id="38" caption="2-bit LUT0/DFF/LATCH0">
+                <graphics pos="(114.00,83.00)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="39" caption="2-bit LUT1/DFF/LATCH1">
+            <graphics pos="(313.00,105.00)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,10.00)"/>
+        </item>
+        <item id="40" caption="2-bit LUT2/DFF/LATCH2">
+            <graphics pos="(414.00,109.00)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,10.00)"/>
+        </item>
+        <LUT id="41" regularShape="0" mode="2">
+            <item id="41" caption="2-bit LUT3/PGEN">
+                <graphics pos="(660.21,93.00)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="42" caption="3-bit LUT0/DFF/LATCH3">
+            <graphics pos="(515.00,113.00)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,10.00)"/>
+        </item>
+        <item id="43" caption="3-bit LUT1/DFF/LATCH4">
+            <graphics pos="(109.00,171.00)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,10.00)"/>
+        </item>
+        <item id="44" caption="3-bit LUT2/DFF/LATCH5">
+            <graphics pos="(212.00,175.00)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,10.00)"/>
+        </item>
+        <item id="45" caption="3-bit LUT3/DFF/LATCH6">
+            <graphics pos="(313.00,179.00)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,10.00)"/>
+        </item>
+        <item id="46" caption="3-bit LUT4/DFF/LATCH7">
+            <graphics pos="(414.00,183.00)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,10.00)"/>
+        </item>
+        <item id="47" caption="3-bit LUT5/DFF/LATCH8">
+            <graphics pos="(515.00,187.00)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,10.00)"/>
+        </item>
+        <item id="48" caption="3-bit LUT6/DFF/LATCH9">
+            <graphics pos="(109.00,249.00)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,10.00)"/>
+        </item>
+        <item id="49" caption="3-bit LUT13/Pipe Delay/Ripple Counter">
+            <graphics pos="(202.00,92.00)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,18.00)"/>
+        </item>
+        <item id="50" caption="4-bit LUT0/DFF/LATCH10">
+            <graphics pos="(212.00,253.00)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,10.00)"/>
+        </item>
+        <item id="51" caption="MF0 (4-bit LUT1, DFF/LATCH17, WS Ctrl, 16-bit CNT0/DLY0/FSM0)">
+            <graphics pos="(403.00,206.00)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
+        </item>
+        <item id="52" caption="MF1 (3-bit LUT7, DFF/LATCH11, 8-bit CNT1/DLY1)">
+            <graphics pos="(695.00,695.00)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
+        </item>
+        <item id="53" caption="MF2 (3-bit LUT8, DFF/LATCH12, 8-bit CNT2/DLY2)">
+            <graphics pos="(785.00,695.00)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
+        </item>
+        <item id="54" caption="MF3 (3-bit LUT9, DFF/LATCH13, 8-bit CNT3/DLY3)">
+            <graphics pos="(764.00,251.00)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
+        </item>
+        <item id="55" caption="MF4 (3-bit LUT10, DFF/LATCH14, 8-bit CNT4/DLY4)">
+            <graphics pos="(761.00,296.00)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
+        </item>
+        <item id="56" caption="MF5 (3-bit LUT11, DFF/LATCH15, 8-bit CNT5/DLY5)">
+            <graphics pos="(753.00,384.00)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
+        </item>
+        <item id="57" caption="MF6 (3-bit LUT12, DFF/LATCH16, 8-bit CNT6/DLY6)">
+            <graphics pos="(754.00,441.00)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
+        </item>
+        <LUT id="58" regularShape="0" mode="0">
+            <item id="58" caption="4-bit LUT1 (MF0)">
+                <graphics pos="(782.33,160.44)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="59" caption="DFF/LATCH17 (MF0)">
+            <graphics pos="(533.00,256.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,10.00)"/>
+        </item>
+        <CNTDLY id="60" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="60" caption="16-bit CNT0/DLY0/FSM0 (MF0)">
+                <graphics pos="(-1.00,-1.00)" angle="0" flipping="0" hidden="1" tOrigin="(35.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <LUT id="61" regularShape="0" mode="0">
+            <item id="61" caption="3-bit LUT7 (MF1)">
+                <graphics pos="(830.00,740.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="62" caption="DFF/LATCH11 (MF1)">
+            <graphics pos="(313.00,257.00)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,10.00)"/>
+        </item>
+        <CNTDLY id="63" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="63" caption="8-bit CNT1/DLY1 (MF1)">
+                <graphics pos="(-1.00,-1.00)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <LUT id="64" regularShape="0" mode="0">
+            <item id="64" caption="3-bit LUT8 (MF2)">
+                <graphics pos="(920.00,740.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="65" caption="DFF/LATCH12 (MF2)">
+            <graphics pos="(414.00,262.00)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,10.00)"/>
+        </item>
+        <CNTDLY id="66" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="66" caption="8-bit CNT2/DLY2 (MF2)">
+                <graphics pos="(-1.00,-1.00)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <LUT id="67" regularShape="0" mode="0">
+            <item id="67" caption="3-bit LUT9 (MF3)">
+                <graphics pos="(899.00,296.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="68" caption="DFF/LATCH13 (MF3)">
+            <graphics pos="(515.00,267.00)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,10.00)"/>
+        </item>
+        <CNTDLY id="69" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="69" caption="8-bit CNT3/DLY3 (MF3)">
+                <graphics pos="(889.00,295.00)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <LUT id="70" regularShape="0" mode="0">
+            <item id="70" caption="3-bit LUT10 (MF4)">
+                <graphics pos="(896.00,341.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="71" caption="DFF/LATCH14 (MF4)">
+            <graphics pos="(112.00,328.00)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,10.00)"/>
+        </item>
+        <CNTDLY id="72" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="72" caption="8-bit CNT4/DLY4 (MF4)">
+                <graphics pos="(-1.00,-1.00)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <LUT id="73" regularShape="0" mode="0">
+            <item id="73" caption="3-bit LUT11 (MF5)">
+                <graphics pos="(888.00,429.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="74" caption="DFF/LATCH15 (MF5)">
+            <graphics pos="(213.00,333.00)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,10.00)"/>
+        </item>
+        <CNTDLY id="75" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="75" caption="8-bit CNT5/DLY5 (MF5)">
+                <graphics pos="(-1.00,-1.00)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <LUT id="76" regularShape="0" mode="0">
+            <item id="76" caption="3-bit LUT12 (MF6)">
+                <graphics pos="(889.00,486.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="77" caption="DFF/LATCH16 (MF6)">
+            <graphics pos="(313.00,338.78)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,10.00)"/>
+        </item>
+        <CNTDLY id="78" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="78" caption="8-bit CNT6/DLY6 (MF6)">
+                <graphics pos="(-1.00,-1.00)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <item id="79" caption="I2C">
+            <graphics pos="(-45.34,466.32)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,45.00)"/>
+        </item>
+        <EEPROM id="80">
+            <data>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</data>
+            <item id="80" caption="EEPROM">
+                <graphics pos="(580.00,495.00)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,16.00)"/>
+            </item>
+        </EEPROM>
+        <item id="81" caption="P DLY">
+            <graphics pos="(114.44,132.22)" angle="0" flipping="0" hidden="0" tOrigin="(17.50,10.00)"/>
+        </item>
+        <item id="82" caption="FILTER/EDGE DET">
+            <graphics pos="(650.21,143.11)" angle="0" flipping="0" hidden="0" tOrigin="(27.50,15.00)"/>
+        </item>
+        <item id="83" caption="OSC0">
+            <graphics pos="(127.18,202.81)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,40.00)"/>
+        </item>
+        <item id="84" caption="OSC1">
+            <graphics pos="(649.44,235.78)" angle="0" flipping="0" hidden="0" tOrigin="(30.00,25.00)"/>
+        </item>
+        <item id="85" caption="OSC2">
+            <graphics pos="(649.44,172.22)" angle="0" flipping="0" hidden="0" tOrigin="(30.00,20.00)"/>
+        </item>
+        <item id="86" caption="HD Buffer">
+            <graphics pos="(712.16,615.29)" angle="0" flipping="0" hidden="1" tOrigin="(18.00,17.00)"/>
+        </item>
+        <item id="87" caption="VREF OPAMP0">
+            <graphics pos="(151.67,526.33)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+        </item>
+        <item id="88" caption="VREF OPAMP1">
+            <graphics pos="(655.77,514.33)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+        </item>
+        <wire output="298" input="111" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="0" wireText="NET0" wireState="0">
+            <points>(-81.00,486.00); (-70.00,486.00); (-70.00,496.00); (-66.00,496.00)</points>
+        </wire>
+        <wire output="299" input="112" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="1" wireText="NET1" wireState="0">
+            <points>(-81.00,539.00); (-70.00,539.00); (-70.00,526.00); (-66.00,526.00)</points>
+        </wire>
+        <wire output="296" input="871" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="-1" wireText="RH1 A" wireState="0">
+            <points>(-81.00,739.00); (-76.00,738.00)</points>
+        </wire>
+        <wire output="297" input="872" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="-1" wireText="RH1 B" wireState="0">
+            <points>(-81.00,790.00); (-76.00,789.00)</points>
+        </wire>
+        <wire output="294" input="862" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="-1" wireText="RH0 A" wireState="0">
+            <points>(-81.00,616.00); (-76.00,616.00)</points>
+        </wire>
+        <wire output="295" input="863" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="-1" wireText="RH0 B" wireState="0">
+            <points>(-81.00,668.00); (-76.00,667.00)</points>
+        </wire>
+        <wire output="161" input="552" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="6" wireText="NET6" wireState="0">
+            <points>(585.00,123.00); (591.00,123.00); (591.00,164.00); (82.00,164.00); (82.00,177.00); (88.00,177.00)</points>
+        </wire>
+        <wire output="162" input="555" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="7" wireText="NET7" wireState="0">
+            <points>(179.00,181.00); (191.00,181.00)</points>
+        </wire>
+        <wire output="164" input="561" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="9" wireText="NET9" wireState="0">
+            <points>(383.00,189.00); (393.00,189.00)</points>
+        </wire>
+        <wire output="163" input="558" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="10" wireText="NET10" wireState="0">
+            <points>(282.00,185.00); (292.00,185.00)</points>
+        </wire>
+        <wire output="165" input="564" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="12" wireText="NET12" wireState="0">
+            <points>(484.00,193.00); (494.00,193.00)</points>
+        </wire>
+        <wire output="158" input="545" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="15" wireText="NET15" wireState="0">
+            <points>(383.00,115.00); (393.00,115.00)</points>
+        </wire>
+        <wire output="159" input="549" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="16" wireText="NET16" wireState="0">
+            <points>(484.00,119.00); (494.00,119.00)</points>
+        </wire>
+        <wire output="166" input="606" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="13" wireText="NET13" wireState="0">
+            <points>(585.00,197.00); (591.00,197.00); (591.00,236.00); (82.00,236.00); (82.00,255.00); (88.00,255.00)</points>
+        </wire>
+        <wire output="184" input="859" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="18" wireText="NET18" wireState="0">
+            <points>(179.00,259.00); (191.00,259.00)</points>
+        </wire>
+        <wire output="84" input="843" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="14" wireText="NET14" wireState="0">
+            <points>(172.00,98.00); (181.00,98.00)</points>
+        </wire>
+        <wire output="193" input="631" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="22" wireText="NET22" wireState="0">
+            <points>(383.00,268.00); (393.00,268.00)</points>
+        </wire>
+        <wire output="197" input="639" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="23" wireText="NET23" wireState="0">
+            <points>(585.00,278.00); (595.67,278.00); (595.67,320.00); (71.00,320.00); (71.00,334.00); (91.00,334.00)</points>
+        </wire>
+        <wire output="195" input="635" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="24" wireText="NET24" wireState="0">
+            <points>(484.00,273.00); (494.00,273.00)</points>
+        </wire>
+        <wire output="199" input="643" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="25" wireText="NET25" wireState="0">
+            <points>(182.00,339.00); (192.00,339.00)</points>
+        </wire>
+        <wire output="321" input="627" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="20" wireText="NET20" wireState="0">
+            <points>(282.00,263.00); (292.00,263.00)</points>
+        </wire>
+        <wire output="0" input="836" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="-1" wireText="VDD" wireState="1">
+            <points/>
+        </wire>
+        <wire output="160" input="546" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="33" wireText="NET33" wireState="0">
+            <points>(719.00,108.00); (725.00,108.00); (725.00,80.00); (623.00,80.00); (623.00,108.00); (641.00,108.00)</points>
+        </wire>
+        <wire output="83" input="260" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="32" wireText="NET32" wireState="0">
+            <points>(726.00,154.00); (737.61,154.00); (737.61,132.44); (623.00,132.44); (623.00,154.00); (629.00,154.00)</points>
+        </wire>
+        <wire output="171" input="544" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="35" wireText="CLK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="171" input="554" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="35" wireText="CLK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="171" input="542" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="35" wireText="CLK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="171" input="548" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="35" wireText="CLK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="171" input="551" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="35" wireText="CLK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="171" input="563" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="35" wireText="CLK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="171" input="560" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="35" wireText="CLK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="171" input="557" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="35" wireText="CLK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="171" input="625" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="35" wireText="CLK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="171" input="629" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="35" wireText="CLK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="171" input="645" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="35" wireText="CLK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="171" input="633" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="35" wireText="CLK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="171" input="637" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="35" wireText="CLK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="171" input="641" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="35" wireText="CLK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="171" input="605" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="35" wireText="CLK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="171" input="845" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="35" wireText="CLK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="171" input="858" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="35" wireText="CLK" wireState="1">
+            <points/>
+        </wire>
+        <wire output="39" input="553" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="39" input="556" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="39" input="550" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="39" input="559" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="39" input="565" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="39" input="562" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="39" input="630" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="39" input="626" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="39" input="634" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="39" input="646" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="39" input="642" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="39" input="638" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="39" input="607" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="39" input="860" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="39" input="104" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="36" input="844" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="5" wireText="NET5" wireState="0">
+            <points>(169.00,143.00); (177.00,143.00); (177.00,111.00); (181.00,111.00)</points>
+        </wire>
+        <wire output="0" input="830" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="-1" wireText="VDD" wireState="1">
+            <points/>
+        </wire>
+        <wire output="191" input="621" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="36" wireText="CH0 Ext. Clk. (From matrix)" wireState="0">
+            <points>(841.00,175.00); (847.00,175.00); (847.00,200.00); (757.00,200.00); (757.00,188.00); (763.00,188.00)</points>
+        </wire>
+        <wire output="203" input="835" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="4" wireText="NET4" wireState="0">
+            <points>(383.00,349.00); (396.00,349.00)</points>
+        </wire>
+        <wire output="312" input="543" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="26" wireText="CH0 Ext. Clk. (From matrix)" wireState="0">
+            <points>(262.00,111.00); (292.00,111.00)</points>
+        </wire>
+        <wire output="201" input="261" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="19" wireText="NET19" wireState="0">
+            <points>(283.00,344.00); (289.00,344.00); (289.00,410.22); (59.00,410.22); (59.00,106.00); (95.00,106.00)</points>
+        </wire>
+        <wire output="201" input="647" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="19" wireText="NET19" wireState="0">
+            <points>(283.00,344.00); (292.00,344.00)</points>
+        </wire>
+        <wire output="159" input="262" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="16" wireText="NET16" wireState="0">
+            <points>(484.00,119.00); (490.00,119.00); (490.00,68.00); (80.11,68.00); (80.11,90.00); (95.00,90.00)</points>
+        </wire>
+        <wire output="301" input="108" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="17" wireText="NET17" wireState="0">
+            <points>(853.00,301.00); (621.00,301.00); (621.00,271.00); (628.00,271.00)</points>
+        </wire>
+        <wire output="39" input="849" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="310" input="851" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="21" wireText="NET21" wireState="0">
+            <points>(674.00,603.00); (679.00,604.00)</points>
+        </wire>
+        <wire output="309" input="850" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="27" wireText="NET27" wireState="0">
+            <points>(674.00,569.00); (679.00,570.00)</points>
+        </wire>
+        <wire output="315" input="840" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="28" wireText="NET28" wireState="0">
+            <points>(790.00,587.00); (799.00,586.00)</points>
+        </wire>
+        <wire output="39" input="846" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="291" input="848" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="30" wireText="NET30" wireState="0">
+            <points>(170.00,615.00); (176.00,615.00)</points>
+        </wire>
+        <wire output="292" input="847" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="29" wireText="NET29" wireState="0">
+            <points>(170.00,581.00); (176.00,581.00)</points>
+        </wire>
+        <wire output="314" input="818" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="31" wireText="NET31" wireState="0">
+            <points>(287.00,598.00); (297.00,598.00)</points>
+        </wire>
+        <wire output="39" input="889" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" lineType="3" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="39" input="890" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" lineType="3" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="326" input="847" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="29" wireText="NET29" wireState="0">
+            <points>(172.00,576.00); (176.00,581.00)</points>
+        </wire>
+        <wire output="327" input="850" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" lineType="2" protected="1" CWLid="27" wireText="NET27" wireState="0">
+            <points>(676.00,564.00); (679.00,570.00)</points>
+        </wire>
+        <wire output="53" input="622" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="34" wireText="NET34" wireState="0">
+            <points>(729.00,180.00); (763.00,180.00)</points>
+        </wire>
+        <wire output="83" input="623" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="32" wireText="NET32" wireState="0">
+            <points>(726.00,154.00); (738.53,154.00); (738.53,171.00); (763.00,171.00)</points>
+        </wire>
+        <wire output="160" input="624" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="33" wireText="NET33" wireState="0">
+            <points>(719.00,108.00); (750.54,108.00); (750.54,163.00); (763.00,163.00)</points>
+        </wire>
+        <wire output="191" input="829" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" lineType="1" protected="0" CWLid="36" wireText="CH0 Ext. Clk. (From matrix)" wireState="0">
+            <points>(841.00,175.00); (855.00,175.00)</points>
+        </wire>
+    </chip>
+    <emulatorConfiguration version="4" oldestCompatibleVersion="4">
+        <settings>
+            <autoApply value="0"/>
+            <programmingOptions programNVM="1" programEEPROM="0"/>
+            <platformSelector id="1"/>
+        </settings>
+        <platform id="0" friendlyName="GreenPAK DIP Development Platform">
+            <lastConfiguration modified="0">
+                <SaveEmulator Name="Default">
+                    <PowerOptions synced="0"/>
+                    <PowerSwitch internalPower="1" externalPower="0"/>
+                    <ExpansionConnector>1:0;2:0;3:0;4:0;5:0;6:0;7:0;8:0;9:0;10:0;11:0;12:0;13:0;14:0;15:0;16:0;17:0;18:0;19:0;20:0</ExpansionConnector>
+                    <TestPoints>
+                        <TPC ID="1" Type="8">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="81" GlobalLink="0"/>
+                            <GeneratorOpt GenType="5">
+                                <constantVoltageGenerator v="3.299377e+00|4">
+                                    <abstractGenerator repeat="0" repeatCount="0" shownPeriod="0" startPoint="0.000000e+00|5" stopPoint="1.000000e-01|5" pauseState="0" prestartState="1" outputState="0" prestartDelay="0.000000e+00|5" endState="0" link="0" sync="0"/>
+                                </constantVoltageGenerator>
+                            </GeneratorOpt>
+                        </TPC>
+                        <TPC ID="2" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="87" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="3" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="69" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="4" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="82" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="5" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="84" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="6" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="89" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="7" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="85" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="8" Type="4">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="73" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="9" Type="4">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="79" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="10" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="80" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="11" Type="3">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="-1" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="12" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="65" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="13" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="83" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="14" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="68" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="15" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="70" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="16" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="71" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="17" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="74" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="18" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="75" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="19" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="76" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="20" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="92" GlobalLink="1"/>
+                        </TPC>
+                    </TestPoints>
+                    <I2C slaveAddress="-1"/>
+                </SaveEmulator>
+            </lastConfiguration>
+            <savedConfigurations/>
+        </platform>
+        <platform id="1" friendlyName="GreenPAK Advanced Development Platform">
+            <lastConfiguration modified="1">
+                <SaveEmulator Name="Default">
+                    <PowerOptions synced="0"/>
+                    <PowerSwitch internalPower="1" externalPower="0"/>
+                    <ExpansionConnector>1:0;2:1;3:1;4:1;5:1;6:1;7:1;8:0;9:0;10:1;11:0;12:1;13:1;14:1;15:0;16:1;17:1;18:1;19:1;20:1</ExpansionConnector>
+                    <TestPoints>
+                        <TPC ID="1" Type="8">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="81" GlobalLink="0"/>
+                            <GeneratorOpt GenType="5">
+                                <constantVoltageGenerator v="5.000000e+00|4">
+                                    <abstractGenerator repeat="0" repeatCount="2" shownPeriod="0" startPoint="0.000000e+00|5" stopPoint="1.000000e-01|5" pauseState="0" prestartState="1" outputState="0" prestartDelay="0.000000e+00|5" endState="0" link="0" sync="0"/>
+                                </constantVoltageGenerator>
+                            </GeneratorOpt>
+                        </TPC>
+                        <TPC ID="2" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="87" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="3" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="69" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="4" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="82" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="5" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="84" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="6" Type="1">
+                            <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="89" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="7" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="85" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="8" Type="4">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="73" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="9" Type="4">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="79" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="10" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="80" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="11" Type="3">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="-1" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="12" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="65" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="13" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="83" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="14" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="68" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="15" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="70" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="16" Type="1">
+                            <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="71" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="17" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="74" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="18" Type="1">
+                            <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="75" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="19" Type="1">
+                            <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="76" GlobalLink="1"/>
+                        </TPC>
+                        <TPC ID="20" Type="1">
+                            <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="92" GlobalLink="1"/>
+                        </TPC>
+                    </TestPoints>
+                    <I2C slaveAddress="-1"/>
+                    <TestPointsOrder>1</TestPointsOrder>
+                </SaveEmulator>
+            </lastConfiguration>
+            <savedConfigurations/>
+        </platform>
+        <platform id="2" friendlyName="GreenPAK Pro Development Platform">
+            <lastConfiguration modified="0">
+                <SaveEmulator Name="Default">
+                    <PowerOptions synced="0"/>
+                    <PowerSwitch internalPower="1" externalPower="0"/>
+                    <ExpansionConnector></ExpansionConnector>
+                    <TestPoints/>
+                    <I2C slaveAddress="-1"/>
+                </SaveEmulator>
+            </lastConfiguration>
+            <savedConfigurations/>
+        </platform>
+        <platform id="4" friendlyName="GreenPAK Serial Debugger">
+            <lastConfiguration modified="0">
+                <SaveEmulator Name="Default">
+                    <PowerOptions synced="0"/>
+                    <PowerSwitch internalPower="1" externalPower="0"/>
+                    <ExpansionConnector></ExpansionConnector>
+                    <TestPoints/>
+                    <I2C slaveAddress="-1"/>
+                </SaveEmulator>
+            </lastConfiguration>
+            <savedConfigurations/>
+        </platform>
+        <platform id="5" friendlyName="GreenPAK Advanced Development Platform w/ Logic Level Adapter #1">
+            <lastConfiguration modified="0">
+                <SaveEmulator Name="Default">
+                    <PowerOptions synced="0"/>
+                    <PowerSwitch internalPower="1" externalPower="0"/>
+                    <ExpansionConnector></ExpansionConnector>
+                    <TestPoints/>
+                    <I2C slaveAddress="-1"/>
+                </SaveEmulator>
+            </lastConfiguration>
+            <savedConfigurations/>
+        </platform>
+        <platform id="6" friendlyName="ForgeFPGA Advanced Development Platform">
+            <lastConfiguration modified="0">
+                <SaveEmulator Name="Default">
+                    <PowerOptions synced="0"/>
+                    <PowerSwitch internalPower="1" externalPower="0"/>
+                    <ExpansionConnector></ExpansionConnector>
+                    <TestPoints/>
+                    <I2C slaveAddress="-1"/>
+                </SaveEmulator>
+            </lastConfiguration>
+            <savedConfigurations/>
+        </platform>
+        <platform id="7" friendlyName="ForgeFPGA Evaluation Board">
+            <lastConfiguration modified="0">
+                <SaveEmulator Name="Default">
+                    <PowerOptions synced="0"/>
+                    <PowerSwitch internalPower="1" externalPower="0"/>
+                    <ExpansionConnector></ExpansionConnector>
+                    <TestPoints/>
+                    <I2C slaveAddress="-1"/>
+                </SaveEmulator>
+            </lastConfiguration>
+            <savedConfigurations/>
+        </platform>
+        <platform id="8" friendlyName="SLG51000 Demo Board">
+            <lastConfiguration modified="0">
+                <SaveEmulator Name="Default">
+                    <PowerOptions synced="0"/>
+                    <PowerSwitch internalPower="1" externalPower="0"/>
+                    <ExpansionConnector></ExpansionConnector>
+                    <TestPoints/>
+                    <I2C slaveAddress="-1"/>
+                </SaveEmulator>
+            </lastConfiguration>
+            <savedConfigurations/>
+        </platform>
+        <platform id="9" friendlyName="SLG51001 Demo Board">
+            <lastConfiguration modified="0">
+                <SaveEmulator Name="Default">
+                    <PowerOptions synced="0"/>
+                    <PowerSwitch internalPower="1" externalPower="0"/>
+                    <ExpansionConnector></ExpansionConnector>
+                    <TestPoints/>
+                    <I2C slaveAddress="-1"/>
+                </SaveEmulator>
+            </lastConfiguration>
+            <savedConfigurations/>
+        </platform>
+        <platform id="10" friendlyName="SLG51002 Demo Board">
+            <lastConfiguration modified="0">
+                <SaveEmulator Name="Default">
+                    <PowerOptions synced="0"/>
+                    <PowerSwitch internalPower="1" externalPower="0"/>
+                    <ExpansionConnector></ExpansionConnector>
+                    <TestPoints/>
+                    <I2C slaveAddress="-1"/>
+                </SaveEmulator>
+            </lastConfiguration>
+            <savedConfigurations/>
+        </platform>
+        <platform id="11" friendlyName="GreenPAK Serial Debugger">
+            <lastConfiguration modified="0">
+                <SaveEmulator Name="Default">
+                    <PowerOptions synced="0"/>
+                    <PowerSwitch internalPower="1" externalPower="0"/>
+                    <ExpansionConnector></ExpansionConnector>
+                    <TestPoints/>
+                    <I2C slaveAddress="-1"/>
+                </SaveEmulator>
+            </lastConfiguration>
+            <savedConfigurations/>
+        </platform>
+    </emulatorConfiguration>
+    <simulationConfiguration version="15" compatibleVersion="15" activePreset="-1">
+        <draftPreset>
+            <simulationPreset index="-1" name="Default" customGroupLayout="false" customParametricDcGroupLayout="false">
+                <transientAnalyses>
+                    <transientAnalysis stopTime="12m" maxTimeStep="20u" startTime="0" stepTime="20u" temperature="25" useInitialConditions="false" vdd="3.3"/>
+                </transientAnalyses>
+                <parametricDcAnalyses/>
+                <pinProbes>
+                    <pinProbe instrumentId="0" measurementFlags="1">
+                        <IdDto category="5" componentType="43" componentNumber="1" pinNumber="0"/>
+                    </pinProbe>
+                </pinProbes>
+                <groups/>
+                <parametricDcGroups/>
+                <waveforms/>
+                <components>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="0" componentNumber="4"/>
+                        <componentUiSettings isFlippedHorizontally="true" isFlippedVertically="false" visible="true" position="(-199.339;415.509)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="GND" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps/>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="0" componentNumber="5"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="false" position="(-6;696.444)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="GND" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps/>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="0" componentNumber="6"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(617.778;449.222)" rotationState="3" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="GND" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps/>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="39" componentNumber="1"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(470.611;397.444)" rotationState="3" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="R1" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="r" affinity="3" value="2k" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="39" componentNumber="2"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(527.833;450.222)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="R2" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="r" affinity="3" value="10k" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="39" componentNumber="3"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(42.0556;538.222)" rotationState="3" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="R3" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="r" affinity="3" value="51k" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="39" componentNumber="4"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(257.278;665.111)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="R4" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="r" affinity="3" value="1.8M" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="39" componentNumber="5"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(304.167;710.556)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="R5" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="r" affinity="3" value="1M" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="39" componentNumber="6"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(257.278;756.667)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="R6" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="r" affinity="3" value="330k" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="39" componentNumber="7"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(304.167;801.778)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="R7" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="r" affinity="3" value="100k" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="39" componentNumber="8"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(257.278;847.111)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="R8" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="r" affinity="3" value="33k" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="39" componentNumber="9"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(304.167;892.111)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="R9" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="r" affinity="3" value="10k" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="39" componentNumber="10"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(257.278;936.556)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="R10" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="r" affinity="3" value="3.3k" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="39" componentNumber="11"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(491.056;595.667)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="R11" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="r" affinity="3" value="51k" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="39" componentNumber="12"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(813.944;652.556)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="R12" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="r" affinity="3" value="1.8M" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="39" componentNumber="13"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(756.278;699.667)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="R13" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="r" affinity="3" value="1M" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="39" componentNumber="14"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(813.944;746.222)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="R14" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="r" affinity="3" value="330k" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="39" componentNumber="15"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(756.278;791.111)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="R15" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="r" affinity="3" value="100k" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="39" componentNumber="16"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(813.944;836.111)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="R16" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="r" affinity="3" value="33k" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="39" componentNumber="17"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(755.167;881.444)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="R17" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="r" affinity="3" value="10k" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="39" componentNumber="18"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(813.944;926.222)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="R18" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="r" affinity="3" value="3.3k" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="40" componentNumber="1"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(241.889;441)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="C1" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="c" affinity="3" value="470n" defaultValue=""/>
+                            <param id="enableCustomize" affinity="4" value="1" defaultValue=""/>
+                            <param id="seriesResistance" affinity="3" value="1m" defaultValue=""/>
+                            <param id="parallelResistance" affinity="3" value="100G" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="40" componentNumber="2"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(131.667;701.667)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="C2" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="c" affinity="3" value="100n" defaultValue=""/>
+                            <param id="enableCustomize" affinity="4" value="1" defaultValue=""/>
+                            <param id="seriesResistance" affinity="3" value="1m" defaultValue=""/>
+                            <param id="parallelResistance" affinity="3" value="100G" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="40" componentNumber="3"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(188;748.222)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="C3" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="c" affinity="3" value="33n" defaultValue=""/>
+                            <param id="enableCustomize" affinity="4" value="1" defaultValue=""/>
+                            <param id="seriesResistance" affinity="3" value="1m" defaultValue=""/>
+                            <param id="parallelResistance" affinity="3" value="100G" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="40" componentNumber="4"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(131.667;793.333)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="C4" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="c" affinity="3" value="10n" defaultValue=""/>
+                            <param id="enableCustomize" affinity="4" value="1" defaultValue=""/>
+                            <param id="seriesResistance" affinity="3" value="1m" defaultValue=""/>
+                            <param id="parallelResistance" affinity="3" value="100G" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="40" componentNumber="5"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(188;837.556)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="C5" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="c" affinity="3" value="3.3n" defaultValue=""/>
+                            <param id="enableCustomize" affinity="4" value="1" defaultValue=""/>
+                            <param id="seriesResistance" affinity="3" value="1m" defaultValue=""/>
+                            <param id="parallelResistance" affinity="3" value="100G" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="40" componentNumber="6"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(131.667;882.667)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="C6" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="c" affinity="3" value="1n" defaultValue=""/>
+                            <param id="enableCustomize" affinity="4" value="1" defaultValue=""/>
+                            <param id="seriesResistance" affinity="3" value="1m" defaultValue=""/>
+                            <param id="parallelResistance" affinity="3" value="100G" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="40" componentNumber="7"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(188;928.333)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="C7" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="c" affinity="3" value="330p" defaultValue=""/>
+                            <param id="enableCustomize" affinity="4" value="1" defaultValue=""/>
+                            <param id="seriesResistance" affinity="3" value="1m" defaultValue=""/>
+                            <param id="parallelResistance" affinity="3" value="100G" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="40" componentNumber="8"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(131.667;972.889)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="C8" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="c" affinity="3" value="100p" defaultValue=""/>
+                            <param id="enableCustomize" affinity="4" value="1" defaultValue=""/>
+                            <param id="seriesResistance" affinity="3" value="1m" defaultValue=""/>
+                            <param id="parallelResistance" affinity="3" value="100G" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="40" componentNumber="9"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(431.222;587.222)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="C9" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="c" affinity="3" value="470n" defaultValue=""/>
+                            <param id="enableCustomize" affinity="4" value="1" defaultValue=""/>
+                            <param id="seriesResistance" affinity="3" value="1m" defaultValue=""/>
+                            <param id="parallelResistance" affinity="3" value="100G" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="40" componentNumber="10"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(610.556;690.667)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="C10" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="c" affinity="3" value="100n" defaultValue=""/>
+                            <param id="enableCustomize" affinity="4" value="1" defaultValue=""/>
+                            <param id="seriesResistance" affinity="3" value="1m" defaultValue=""/>
+                            <param id="parallelResistance" affinity="3" value="100G" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="40" componentNumber="11"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(674.556;737.222)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="C11" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="c" affinity="3" value="33n" defaultValue=""/>
+                            <param id="enableCustomize" affinity="4" value="1" defaultValue=""/>
+                            <param id="seriesResistance" affinity="3" value="1m" defaultValue=""/>
+                            <param id="parallelResistance" affinity="3" value="100G" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="40" componentNumber="12"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(610.556;782.333)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="C12" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="c" affinity="3" value="10n" defaultValue=""/>
+                            <param id="enableCustomize" affinity="4" value="1" defaultValue=""/>
+                            <param id="seriesResistance" affinity="3" value="1m" defaultValue=""/>
+                            <param id="parallelResistance" affinity="3" value="100G" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="40" componentNumber="13"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(674.556;827)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="C13" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="c" affinity="3" value="3.3n" defaultValue=""/>
+                            <param id="enableCustomize" affinity="4" value="1" defaultValue=""/>
+                            <param id="seriesResistance" affinity="3" value="1m" defaultValue=""/>
+                            <param id="parallelResistance" affinity="3" value="100G" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="40" componentNumber="14"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(610.556;871.667)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="C14" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="c" affinity="3" value="1n" defaultValue=""/>
+                            <param id="enableCustomize" affinity="4" value="1" defaultValue=""/>
+                            <param id="seriesResistance" affinity="3" value="1m" defaultValue=""/>
+                            <param id="parallelResistance" affinity="3" value="100G" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="40" componentNumber="15"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(674.556;917.333)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="C15" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="c" affinity="3" value="330p" defaultValue=""/>
+                            <param id="enableCustomize" affinity="4" value="1" defaultValue=""/>
+                            <param id="seriesResistance" affinity="3" value="1m" defaultValue=""/>
+                            <param id="parallelResistance" affinity="3" value="100G" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="40" componentNumber="16"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(610.556;961.889)" rotationState="0" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="C16" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps>
+                            <param id="c" affinity="3" value="100p" defaultValue=""/>
+                            <param id="enableCustomize" affinity="4" value="1" defaultValue=""/>
+                            <param id="seriesResistance" affinity="3" value="1m" defaultValue=""/>
+                            <param id="parallelResistance" affinity="3" value="100G" defaultValue=""/>
+                        </instanceProps>
+                    </component>
+                    <component simulationModel="" defaultSimulationModel="">
+                        <componentId category="5" componentType="43" componentNumber="1"/>
+                        <componentUiSettings isFlippedHorizontally="false" isFlippedVertically="false" visible="true" position="(-204.389;246.989)" rotationState="3" sceneIndex="0"/>
+                        <schematicProps>
+                            <param id="name" affinity="4" value="V1" defaultValue=""/>
+                            <param id="mfg" affinity="4" value="" defaultValue=""/>
+                            <param id="part_number" affinity="4" value="" defaultValue=""/>
+                            <param id="has_rc" affinity="1" value="1" defaultValue=""/>
+                            <param id="int_r" affinity="3" value="10" defaultValue=""/>
+                            <param id="int_c" affinity="3" value="100n" defaultValue=""/>
+                            <param id="show_one_period" affinity="1" value="0" defaultValue=""/>
+                            <param id="has_limited_voltage" affinity="1" value="0" defaultValue=""/>
+                            <param id="dc_analysis_voltage" affinity="3" value="3.3" defaultValue=""/>
+                            <param id="signal_type" affinity="1" value="1" defaultValue=""/>
+                            <param id="prestart_delay" affinity="3" value="0" defaultValue=""/>
+                            <param id="prestart_state" affinity="1" value="0" defaultValue=""/>
+                            <param id="repeat_state" affinity="1" value="0" defaultValue=""/>
+                            <param id="repeat_count" affinity="1" value="2" defaultValue=""/>
+                            <param id="end_state" affinity="1" value="1" defaultValue=""/>
+                            <param id="ramp_voltage" affinity="3" value="3.3" defaultValue=""/>
+                            <param id="ramp_rise_time" affinity="3" value="1m" defaultValue=""/>
+                        </schematicProps>
+                        <instanceProps/>
+                    </component>
+                </components>
+                <networks>
+                    <network networkId="56" name="NET56">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="9" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="39" componentNumber="11" pinNumber="0"/>
+                                </to>
+                                <path>
+                                    <point value="(462;603)"/>
+                                    <point value="(469;603)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="55" name="NET55">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="18" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="40" componentNumber="15" pinNumber="1"/>
+                                </to>
+                                <path>
+                                    <point value="(792;933)"/>
+                                    <point value="(706;933)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="54" name="NET54">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="17" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="40" componentNumber="14" pinNumber="1"/>
+                                </to>
+                                <path>
+                                    <point value="(733;888)"/>
+                                    <point value="(642;888)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="53" name="NET53">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="16" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="40" componentNumber="13" pinNumber="1"/>
+                                </to>
+                                <path>
+                                    <point value="(792;843)"/>
+                                    <point value="(706;843)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="52" name="NET52">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="15" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="40" componentNumber="12" pinNumber="1"/>
+                                </to>
+                                <path>
+                                    <point value="(734;798)"/>
+                                    <point value="(642;798)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="51" name="NET51">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="14" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="40" componentNumber="11" pinNumber="1"/>
+                                </to>
+                                <path>
+                                    <point value="(792;753)"/>
+                                    <point value="(706;753)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="50" name="NET50">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="13" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="40" componentNumber="10" pinNumber="1"/>
+                                </to>
+                                <path>
+                                    <point value="(734;707)"/>
+                                    <point value="(642;707)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="49" name="NET49">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="12" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="22"/>
+                                </to>
+                                <path>
+                                    <point value="(884;660)"/>
+                                    <point value="(907;660)"/>
+                                    <point value="(907;581)"/>
+                                    <point value="(884;581)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="13" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="22"/>
+                                </to>
+                                <path>
+                                    <point value="(826;707)"/>
+                                    <point value="(907;707)"/>
+                                    <point value="(907;581)"/>
+                                    <point value="(884;581)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="14" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="22"/>
+                                </to>
+                                <path>
+                                    <point value="(884;753)"/>
+                                    <point value="(907;753)"/>
+                                    <point value="(907;581)"/>
+                                    <point value="(884;581)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="15" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="22"/>
+                                </to>
+                                <path>
+                                    <point value="(826;798)"/>
+                                    <point value="(907;798)"/>
+                                    <point value="(907;581)"/>
+                                    <point value="(884;581)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="16" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="22"/>
+                                </to>
+                                <path>
+                                    <point value="(884;843)"/>
+                                    <point value="(907;843)"/>
+                                    <point value="(907;581)"/>
+                                    <point value="(884;581)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="17" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="22"/>
+                                </to>
+                                <path>
+                                    <point value="(825;888)"/>
+                                    <point value="(907;888)"/>
+                                    <point value="(907;581)"/>
+                                    <point value="(884;581)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="16" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="22"/>
+                                </to>
+                                <path>
+                                    <point value="(642;978)"/>
+                                    <point value="(907;978)"/>
+                                    <point value="(907;581)"/>
+                                    <point value="(884;581)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="18" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="22"/>
+                                </to>
+                                <path>
+                                    <point value="(884;933)"/>
+                                    <point value="(907;933)"/>
+                                    <point value="(907;581)"/>
+                                    <point value="(884;581)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="48" name="NET48">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="10" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="24"/>
+                                </to>
+                                <path>
+                                    <point value="(589;707)"/>
+                                    <point value="(571;707)"/>
+                                    <point value="(571;603)"/>
+                                    <point value="(589;603)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="11" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="24"/>
+                                </to>
+                                <path>
+                                    <point value="(653;753)"/>
+                                    <point value="(571;753)"/>
+                                    <point value="(571;603)"/>
+                                    <point value="(589;603)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="12" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="24"/>
+                                </to>
+                                <path>
+                                    <point value="(589;798)"/>
+                                    <point value="(571;798)"/>
+                                    <point value="(571;603)"/>
+                                    <point value="(589;603)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="13" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="24"/>
+                                </to>
+                                <path>
+                                    <point value="(653;843)"/>
+                                    <point value="(571;843)"/>
+                                    <point value="(571;603)"/>
+                                    <point value="(589;603)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="14" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="24"/>
+                                </to>
+                                <path>
+                                    <point value="(589;888)"/>
+                                    <point value="(571;888)"/>
+                                    <point value="(571;603)"/>
+                                    <point value="(589;603)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="15" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="24"/>
+                                </to>
+                                <path>
+                                    <point value="(653;933)"/>
+                                    <point value="(571;933)"/>
+                                    <point value="(571;603)"/>
+                                    <point value="(589;603)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="16" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="24"/>
+                                </to>
+                                <path>
+                                    <point value="(589;978)"/>
+                                    <point value="(571;978)"/>
+                                    <point value="(571;603)"/>
+                                    <point value="(589;603)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="11" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="24"/>
+                                </to>
+                                <path>
+                                    <point value="(561;603)"/>
+                                    <point value="(589;603)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="12" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="24"/>
+                                </to>
+                                <path>
+                                    <point value="(792;660)"/>
+                                    <point value="(571;660)"/>
+                                    <point value="(571;603)"/>
+                                    <point value="(589;603)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="47" name="NET47">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="7" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="39" componentNumber="10" pinNumber="0"/>
+                                </to>
+                                <path>
+                                    <point value="(219;944)"/>
+                                    <point value="(235;944)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="46" name="NET46">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="6" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="39" componentNumber="9" pinNumber="0"/>
+                                </to>
+                                <path>
+                                    <point value="(163;899)"/>
+                                    <point value="(282;899)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="45" name="NET45">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="5" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="39" componentNumber="8" pinNumber="0"/>
+                                </to>
+                                <path>
+                                    <point value="(219;854)"/>
+                                    <point value="(235;854)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="44" name="NET44">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="4" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="39" componentNumber="7" pinNumber="0"/>
+                                </to>
+                                <path>
+                                    <point value="(163;809)"/>
+                                    <point value="(282;809)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="43" name="NET43">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="3" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="39" componentNumber="6" pinNumber="0"/>
+                                </to>
+                                <path>
+                                    <point value="(219;764)"/>
+                                    <point value="(235;764)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="42" name="NET42">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="2" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="39" componentNumber="5" pinNumber="0"/>
+                                </to>
+                                <path>
+                                    <point value="(163;718)"/>
+                                    <point value="(282;718)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="41" name="NET41">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="4" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="5"/>
+                                </to>
+                                <path>
+                                    <point value="(327;672)"/>
+                                    <point value="(403;672)"/>
+                                    <point value="(403;603)"/>
+                                    <point value="(382;603)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="5" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="5"/>
+                                </to>
+                                <path>
+                                    <point value="(374;718)"/>
+                                    <point value="(403;718)"/>
+                                    <point value="(403;603)"/>
+                                    <point value="(382;603)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="6" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="5"/>
+                                </to>
+                                <path>
+                                    <point value="(327;764)"/>
+                                    <point value="(403;764)"/>
+                                    <point value="(403;603)"/>
+                                    <point value="(382;603)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="7" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="5"/>
+                                </to>
+                                <path>
+                                    <point value="(374;809)"/>
+                                    <point value="(403;809)"/>
+                                    <point value="(403;603)"/>
+                                    <point value="(382;603)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="8" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="5"/>
+                                </to>
+                                <path>
+                                    <point value="(327;854)"/>
+                                    <point value="(403;854)"/>
+                                    <point value="(403;603)"/>
+                                    <point value="(382;603)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="9" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="5"/>
+                                </to>
+                                <path>
+                                    <point value="(374;899)"/>
+                                    <point value="(403;899)"/>
+                                    <point value="(403;603)"/>
+                                    <point value="(382;603)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="10" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="5"/>
+                                </to>
+                                <path>
+                                    <point value="(327;944)"/>
+                                    <point value="(403;944)"/>
+                                    <point value="(403;603)"/>
+                                    <point value="(382;603)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="8" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="5"/>
+                                </to>
+                                <path>
+                                    <point value="(163;989)"/>
+                                    <point value="(403;989)"/>
+                                    <point value="(403;603)"/>
+                                    <point value="(382;603)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="9" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="5"/>
+                                </to>
+                                <path>
+                                    <point value="(409;603)"/>
+                                    <point value="(382;603)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="40" name="NET40">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="1" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="39" componentNumber="3" pinNumber="1"/>
+                                </to>
+                                <path>
+                                    <point value="(220;457)"/>
+                                    <point value="(67;457)"/>
+                                    <point value="(67;499)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="39" name="NET39">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="3" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="3"/>
+                                </to>
+                                <path>
+                                    <point value="(67;591)"/>
+                                    <point value="(67;615)"/>
+                                    <point value="(85;615)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="4" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="3"/>
+                                </to>
+                                <path>
+                                    <point value="(235;672)"/>
+                                    <point value="(67;672)"/>
+                                    <point value="(67;615)"/>
+                                    <point value="(85;615)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="2" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="3"/>
+                                </to>
+                                <path>
+                                    <point value="(110;718)"/>
+                                    <point value="(67;718)"/>
+                                    <point value="(67;615)"/>
+                                    <point value="(85;615)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="3" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="3"/>
+                                </to>
+                                <path>
+                                    <point value="(166;764)"/>
+                                    <point value="(67;764)"/>
+                                    <point value="(67;615)"/>
+                                    <point value="(85;615)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="4" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="3"/>
+                                </to>
+                                <path>
+                                    <point value="(110;809)"/>
+                                    <point value="(67;809)"/>
+                                    <point value="(67;615)"/>
+                                    <point value="(85;615)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="5" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="3"/>
+                                </to>
+                                <path>
+                                    <point value="(166;854)"/>
+                                    <point value="(67;854)"/>
+                                    <point value="(67;615)"/>
+                                    <point value="(85;615)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="6" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="3"/>
+                                </to>
+                                <path>
+                                    <point value="(110;899)"/>
+                                    <point value="(67;899)"/>
+                                    <point value="(67;615)"/>
+                                    <point value="(85;615)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="7" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="3"/>
+                                </to>
+                                <path>
+                                    <point value="(166;944)"/>
+                                    <point value="(67;944)"/>
+                                    <point value="(67;615)"/>
+                                    <point value="(85;615)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="40" componentNumber="8" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="3"/>
+                                </to>
+                                <path>
+                                    <point value="(110;989)"/>
+                                    <point value="(67;989)"/>
+                                    <point value="(67;615)"/>
+                                    <point value="(85;615)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="38" name="NET38">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="16"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="15"/>
+                                </to>
+                                <path>
+                                    <point value="(940;180)"/>
+                                    <point value="(971;180)"/>
+                                    <point value="(971;296)"/>
+                                    <point value="(938;296)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="37" name="NET37">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="0" componentNumber="6" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="39" componentNumber="2" pinNumber="1"/>
+                                </to>
+                                <path>
+                                    <point value="(604;457)"/>
+                                    <point value="(598;457)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="11" name="NET11">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="0" componentNumber="4" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="14"/>
+                                </to>
+                                <path>
+                                    <point value="(-183;394)"/>
+                                    <point value="(-183;367)"/>
+                                    <point value="(-166;367)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="0" componentNumber="4" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="2"/>
+                                </to>
+                                <path>
+                                    <point value="(-183;394)"/>
+                                    <point value="(-183;327)"/>
+                                    <point value="(-166;327)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="0" componentNumber="4" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="43" componentNumber="1" pinNumber="1"/>
+                                </to>
+                                <path>
+                                    <point value="(-183;394)"/>
+                                    <point value="(-183;310)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="8" name="NET8">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="1" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="39" componentNumber="2" pinNumber="0"/>
+                                </to>
+                                <path>
+                                    <point value="(495;450)"/>
+                                    <point value="(495;457)"/>
+                                    <point value="(506;457)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="1" pinNumber="0"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="40" componentNumber="1" pinNumber="1"/>
+                                </to>
+                                <path>
+                                    <point value="(495;450)"/>
+                                    <point value="(495;457)"/>
+                                    <point value="(273;457)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="3" name="NET3">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="13"/>
+                                </from>
+                                <to>
+                                    <IdDto category="5" componentType="43" componentNumber="1" pinNumber="0"/>
+                                </to>
+                                <path>
+                                    <point value="(-166;205)"/>
+                                    <point value="(-183;205)"/>
+                                    <point value="(-183;225)"/>
+                                </path>
+                            </connection>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="13"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="1"/>
+                                </to>
+                                <path>
+                                    <point value="(-166;205)"/>
+                                    <point value="(-183;205)"/>
+                                    <point value="(-183;144)"/>
+                                    <point value="(-166;144)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                    <network networkId="2" name="NET2">
+                        <connections>
+                            <connection connectionType="0" routingType="0" sceneIndex="0">
+                                <from>
+                                    <IdDto category="5" componentType="39" componentNumber="1" pinNumber="1"/>
+                                </from>
+                                <to>
+                                    <IdDto category="100" componentType="45" componentNumber="0" pinNumber="19"/>
+                                </to>
+                                <path>
+                                    <point value="(495;358)"/>
+                                    <point value="(495;354)"/>
+                                    <point value="(481;354)"/>
+                                </path>
+                            </connection>
+                        </connections>
+                    </network>
+                </networks>
+            </simulationPreset>
+        </draftPreset>
+        <simulationPresets/>
+    </simulationConfiguration>
+    <projectData>
+        <specs>
+            <lastModify lastModifyValue="22.07.2022 8:50:03"/>
+            <vddSpecs vddMin="2.4" vddTyp="3.3" vddMax="5.5"/>
+            <tempSpecs tempMin="-40" tempTyp="25" tempMax="85"/>
+        </specs>
+        <projectDataFields>
+            <textLineDataField name="Customer Name" id="2" text=""/>
+            <textLineDataField name="Customer Project Name" id="3" text=""/>
+            <textLineDataField name="Customer Project Number" id="4" text=""/>
+            <textLineDataField name="Customer Version Number" id="5" text=""/>
+            <multiTextLineDataField>
+                <textLineDataField name="Notes" id="6" text=""/>
+            </multiTextLineDataField>
+        </projectDataFields>
+    </projectData>
+    <i2cTool>
+        <i2cDebugger version="1"/>
+        <i2cStepper version="1" rowCount="0"/>
+        <i2cRegsTable version="1" tabCount="0"/>
+    </i2cTool>
+<logicAnalyzer>
+    <metadata>
+        <autosavePreset>-1</autosavePreset>
+        <currentPreset>-1</currentPreset>
+        <version>1</version>
+    </metadata>
+    <presetList />
+</logicAnalyzer>
+
+</GPDProject>
